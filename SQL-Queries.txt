@@ -1,0 +1,42 @@
+use mydb;
+
+show tables;
+
+CREATE TABLE Summary (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    work_email VARCHAR(255),
+    personal_email VARCHAR(255),
+    attendance FLOAT,
+    assignment_completion VARCHAR(10),
+    quiz_submitted INT,
+    quiz_completed VARCHAR(255),
+    score INT,
+    compliance VARCHAR(255),
+    watcher VARCHAR(255)
+);
+
+CREATE TABLE Summary (
+    ranking INT AUTO_INCREMENT PRIMARY KEY,
+    cohort VARCHAR(64),
+    name VARCHAR(255),
+    email VARCHAR(255),
+    personal_email VARCHAR(255),
+    attendance FLOAT,
+    assignment_completion VARCHAR(20),
+    quiz_submitted INT,
+    quiz_completed VARCHAR (20),
+    score FLOAT,
+    compliance VARCHAR(255),
+    watcher VARCHAR(20)
+);
+
+ week present absent
+
+CREATE TABLE Attendance (
+    attendance_average
+);
+
+CREATE TABLE Assignments (
+
+);
